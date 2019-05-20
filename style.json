@@ -60,7 +60,7 @@
       "id": "background",
       "type": "background",
       "paint": {
-        "background-color": "#162639"
+        "background-color": "rgba(155, 148, 132, 1)"
       }
     },
     {
@@ -178,9 +178,10 @@
       "type": "fill",
       "source": "composite",
       "source-layer": "woodland",
+      "maxzoom": 24,
       "layout": {},
       "paint": {
-        "fill-color": "#132f33",
+        "fill-color": "rgba(91, 141, 70, 1)",
         "fill-opacity": [
           "interpolate",
           [
